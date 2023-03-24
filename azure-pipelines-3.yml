@@ -1,8 +1,7 @@
 pool:
-    vmImage: 'ubuntu-18.04'
-
+  vmImage: 'ubuntu-18.04'
 container:
     image: ubuntu:18.04
-    options: --hostname container-test --ip 192.168.0.1
+    options: --hostname container-test --subnet 192.168.0.0/24 --ip 192.168.0.1
 steps:
 - script: echo hello
