@@ -5,7 +5,6 @@ jobs:
   pool:
     vmImage: ubuntu-latest
   # creates an environment if it doesn&#39;t exist
-  environment: 'smarthotel-dev'
   strategy:
     # default deployment strategy, more coming...
     runOnce:
